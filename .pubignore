@@ -1,0 +1,23 @@
+# Build artifacts & temporary files
+build/
+.dart_tool/
+.pub-cache/
+.pub/
+
+# Platform files (not needed for pure Flutter UI library)
+android/
+ios/
+web/
+linux/
+macos/
+windows/
+
+# IDE & Editor files
+.idea/
+*.iml
+.vscode/
+
+# Local demo & test files (kept in workspace but excluded from pub package)
+lib/main.dart
+lib/card.dart
+test/

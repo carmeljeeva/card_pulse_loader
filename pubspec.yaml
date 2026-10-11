@@ -1,0 +1,29 @@
+name: card_pulse_loader
+description: A modern Flutter package for non-skeleton card loading animations featuring Border Runner, Gloss Sweep, and Radar Scanner.
+version: 1.0.0
+homepage: https://github.com/carmeljeeva/card_pulse_loader
+repository: https://github.com/carmeljeeva/card_pulse_loader
+issue_tracker: https://github.com/carmeljeeva/card_pulse_loader/issues
+
+environment:
+  sdk: ^3.0.0
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+topics:
+  - ui
+  - loader
+  - animation
+  - card
+  - shimmer
+
+flutter:
+  uses-material-design: true

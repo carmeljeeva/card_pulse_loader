@@ -1,0 +1,22 @@
+name: card_pulse_loader_example
+description: Demonstrates how to use the card_pulse_loader package.
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ^3.0.0
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  card_pulse_loader:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
